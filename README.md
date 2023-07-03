@@ -4,6 +4,6 @@ An interpreter (implemented in Java) for the Lox programming language from Rober
 ## How to use
 First, build with `gradle build`.
 
-From there, you can either run the interpreter via [run.sh](./run.sh), or directly invoke `java -jar` on `interpreter-standalone.jar` yourself.
+From there, you can find the interpreter jar and call `java -jar interpreter-standalone.jar` on it normally.
 
-After building, the interpreter jar is located at `interpreter/build/libs/interpreter-standalone.jar`.
+The interpreter jar will be located at `interpreter/build/libs/interpreter-standalone.jar`.
