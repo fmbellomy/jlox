@@ -18,7 +18,7 @@ public class LoxInstance {
         LoxFunction method = klass.findMethod(this, name.lexeme);
         if (method != null)
             return method;
-        throw new RuntimeError(name, "Undefined propety '" + name.lexeme + "'.");
+        throw new RuntimeError(name, "Undefined property '" + name.lexeme + "'.");
     }
 
     void set(Token name, Object value) {
