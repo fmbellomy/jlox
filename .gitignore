@@ -6,5 +6,6 @@
 
 # ignore binary artifacts
 **/bin/**
+buildSrc/
 
 
