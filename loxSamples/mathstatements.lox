@@ -1,0 +1,3 @@
+print "one";
+print "eebi" + "deebi";
+print 2+3;

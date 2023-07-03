@@ -1,0 +1,36 @@
+
+class Car{
+    init(tankCapacity, milesPerGallon){
+        this.gas = 0;
+        this.tankCapacity = tankCapacity;
+        this.milesDriven = 0;
+        this.milesPerGallon = milesPerGallon;
+    }
+    drive(miles){
+        if(this.getDrivableMiles() > miles){
+            this.gas = this.gas - this.milesPerGallon/miles;
+            this.milesDriven = this.milesDriven + miles;
+            print "Drove ";
+            print miles;
+            print " miles!";
+        }
+        else{
+            print "Unable to drive that far. Not enough gas.";
+        }
+    }
+    getDrivableMiles(){
+        return this.milesPerGallon * this.gas;
+    }
+    fillTank(){
+        this.gas = this.tankCapacity;
+    }
+}
+
+fun main(){
+    var ford_f150 = Car(10, 100);
+    ford_f150.drive(5);
+    ford_f150.fillTank();
+    print ford_f150.gas;
+}
+
+main();
