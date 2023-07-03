@@ -17,7 +17,6 @@ public class MainTest {
     @Test
     public void cake() throws IOException {
         Main.main(makeScriptPath("cake.lox"));
-
     }
 
     @Test
