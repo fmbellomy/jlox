@@ -1,5 +1,5 @@
 # jlox
-A java interpreter for the Lox programming language from Robert Nystrom's lovely book, *Crafting Interpreters.*
+An interpreter (implemented in Java) for the Lox programming language from Robert Nystrom's lovely book, *Crafting Interpreters.*
 
 ## How to use
 First, build with `gradle build`.
