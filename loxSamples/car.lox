@@ -1,4 +1,3 @@
-
 class Car{
     init(tankCapacity, milesPerGallon){
         this.gas = 0;
@@ -31,6 +30,7 @@ fun main(){
     ford_f150.fillTank();
     ford_f150.drive(100);
     print ford_f150.gas;
+    print ford_f150.getDrivableMiles();
 }
 
 main();
