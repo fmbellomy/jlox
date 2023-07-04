@@ -1,0 +1,18 @@
+class Kill{
+    init(){
+        this.x = 4;
+        this.y = 10;
+        fun add(){
+            return this.x + this.y;
+        }
+        this.func = add;
+    }
+    kill(){
+        this.func();
+    }
+}
+var wtf = Kill();
+print wtf.x;
+print wtf.y;
+print wtf.func();
+print wtf.kill();

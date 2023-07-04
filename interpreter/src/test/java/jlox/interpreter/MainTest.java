@@ -43,4 +43,9 @@ public class MainTest {
     public void scope() throws IOException {
         Main.main(makeScriptPath("scope.lox"));
     }
+
+    @Test
+    public void closure() throws IOException {
+        Main.main(makeScriptPath("closure.lox"));
+    }
 }
